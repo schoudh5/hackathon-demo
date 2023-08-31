@@ -17,7 +17,7 @@ vpas = response {
 
 mainRule {
 	input.transaction.amount in input.rule.allowedTransactions
-    input.transaction.country == "US'
+    input.transaction.country == "US"
 }
 
 Balance[resp] {
